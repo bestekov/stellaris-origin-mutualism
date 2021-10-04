@@ -1,0 +1,44 @@
+origin_mut_mutualism = {
+	max_once_global = yes
+	is_origin = yes
+	icon = "gfx/interface/icons/traits/leader_traits/trait_ruler_expansionist.dds"
+	picture = GFX_origin_mut_mutualism
+
+	playable = {
+		host_has_dlc = "Utopia"
+	}
+
+	description = "origin_tooltip_mut_mutualism_effects"
+
+	max_once_global = yes
+	is_origin = yes
+	
+	modifier = {
+		army_morale = 0.2
+		army_damage_mult = 0.2
+	}
+
+	# Base species trait
+	traits = {
+		trait = trait_mut_mutualism_primary
+	}
+
+	# Add secondary species
+	has_secondary_species = {
+		title = civic_mut_mutualism_secondary_species
+		traits = {
+			trait = trait_mut_mutualism_secondary
+		}
+	}
+
+	random_weight = {
+		base = 0
+		modifier = {
+			factor = 0
+			OR = {
+				has_global_flag = game_started
+				NOT = { has_global_flag = game_started }
+			}
+		}
+	}
+}
