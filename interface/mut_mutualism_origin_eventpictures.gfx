@@ -1,0 +1,7 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_origin_mut_mutualism"
+		texturefile = "gfx/event_pictures/origins/mut_mutualism_picture.dds"
+		alwaystransparent = yes
+	}
+}
