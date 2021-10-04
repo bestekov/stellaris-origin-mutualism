@@ -1,0 +1,11 @@
+﻿l_english: 
+
+# Mutualism Localisation
+
+ origin_mut_mutualism: "Evolved Mutualism"
+ origin_mut_mutualism_desc: "Two species on this world evolved in a mutually symbiotic relationship. Each species complements the other such that when they are present together, happiness and productivity are increased. But should a world contain only one of the symbiotes, they will suffer penalties."
+ origin_tooltip_mut_mutualism_effects: "origin_tooltip_mut_mutualism_effects key"
+ civic_mut_mutualism_secondary_species: "Secondary Species"
+ TRAIT_MUT_MUTUALISM_EFFECT: "TRAIT_MUT_MUTUALISM_EFFECT key"
+ trait_mut_mutualism_primary_effect: "trait_mut_mutualism_primary_effect key"
+ trait_mut_mutualism_secondary_effect: "trait_mut_mutualism_secondary_effect key"
